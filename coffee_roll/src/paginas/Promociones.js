@@ -1,7 +1,7 @@
 import Navbar from '../componentes/Navbar'
 import './paginas.css'
 
-function LandingPage (){
+function Promociones (){
     return(
         <>
         <Navbar />
@@ -9,4 +9,4 @@ function LandingPage (){
     )
 };
 
-export default LandingPage
+export default Promociones
