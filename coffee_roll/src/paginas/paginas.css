@@ -5,4 +5,5 @@ body{
 .contenedor{
     position: relative;
     top: 8rem;
+    left: 10%;
 }
