@@ -5,7 +5,20 @@ body{
     position: relative;
     height: 100vh;
 }
-
+.contCard{
+    width: 90%;
+    height: 200vh;
+    position: relative;
+    top: 2rem;
+    margin: auto;
+    display: flex;
+}
+.contConstum{
+    position: relative;
+    top: 2rem;
+    width: 80%;
+    margin: auto;
+}
 .contenedor{
     position: relative;
     top: 5rem;
@@ -17,12 +30,23 @@ body{
     color: #F8EAE3;
 }
 @media only screen and (min-width: 675px){
-    .home, .promociones{
+    .home{
         height: 150vh;
+    }
+    .promociones{
+        height: 220vh;
     }
 }
 @media only screen and (min-width: 1200px){
     .home, .promociones{
-        height: 200vh;
+        height: 300vh;
+    }
+    .promociones{
+        height: 370vh;
+    }
+    .contConstum{
+       
+        width: 50%;
+       
     }
 }
