@@ -1,10 +1,11 @@
 body{
     background: #2A3640;
 }
-.home{
+.home,.promociones{
     position: relative;
     height: 100vh;
 }
+
 .contenedor{
     position: relative;
     top: 5rem;
@@ -16,12 +17,12 @@ body{
     color: #F8EAE3;
 }
 @media only screen and (min-width: 675px){
-    .home{
+    .home, .promociones{
         height: 150vh;
     }
 }
 @media only screen and (min-width: 1200px){
-    .home{
+    .home, .promociones{
         height: 200vh;
     }
 }
