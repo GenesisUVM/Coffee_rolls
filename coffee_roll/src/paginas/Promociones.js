@@ -1,10 +1,12 @@
-import Navbar from '../componentes/Navbar'
+import Footer from '../componentes/Footer'
+import NavBar from '../componentes/Navbar'
 import './paginas.css'
 
 function Promociones (){
     return(
         <>
-        <Navbar />
+        <NavBar />
+        <Footer />
         </>
     )
 };

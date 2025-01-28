@@ -1,13 +1,13 @@
-import Navbar from '../componentes/Navbar'
+import NavBar from '../componentes/Navbar'
 import GaleriaImg from '../componentes/GaleriaImg'
-
+import Footer from '../componentes/Footer'
 import './paginas.css'
 
 function LandingPage (){
   
     return(
-        <>
-        <Navbar />
+        <div className='home'>
+        <NavBar />
         <div className='contenedor'>
             <span>
                 <h2>Cafeteria Coffee Rolls</h2>
@@ -25,7 +25,8 @@ function LandingPage (){
             
             <GaleriaImg/>
         </div>
-        </>
+        < Footer />
+        </div>
     )
 };
 

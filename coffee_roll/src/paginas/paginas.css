@@ -1,9 +1,27 @@
 body{
     background: #2A3640;
 }
-
+.home{
+    position: relative;
+    height: 100vh;
+}
 .contenedor{
     position: relative;
-    top: 8rem;
+    top: 5rem;
     left: 10%;
+    width: 90%;
+}
+.contenedor span{
+    padding: 0 5rem 0 0 ;
+    color: #F8EAE3;
+}
+@media only screen and (min-width: 675px){
+    .home{
+        height: 150vh;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .home{
+        height: 200vh;
+    }
 }
