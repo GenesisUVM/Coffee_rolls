@@ -29,6 +29,9 @@
     color: #B5673F;
     font-size: 1.2rem;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
 }
 
 @media only screen and (min-width: 768px){

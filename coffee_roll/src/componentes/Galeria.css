@@ -1,0 +1,88 @@
+.contenedorGaleria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    gap: 1rem;
+    transition: 0.3s;
+}
+
+.contenedorGaleria li{
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 120px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0.4rem solid #fff;
+    transition: 0.3s;
+}
+.imgGaleria{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.contenedorGaleria .content{
+    transition: 1.5s;
+}
+.contenedorGaleria span{
+    text-align: center;
+    width: 75%;
+
+}
+.contenedorGaleria h3{
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    color: #fff;
+}
+.contenedorGaleria p {
+    color: #fff;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.contenedorGaleria li .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    padding: 1.5rem;
+    background: linear-gradient(0deg, rgb(0 0 0 / 70%) 10%, rgb(255 255 255 / 0%) 100%);
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorGaleria:hover{
+    gap: 0.5rem;
+} .contenedorGaleria li .content span{
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    bottom: 0;
+    translate: -50%;
+    scale: 0.85;
+    visibility: hidden;
+    opacity: 0;
+}
+.contenedorGaleria li:hover{
+    flex: 0 1 266px;
+    scale: 1.1;
+    z-index: 10;
+    opacity: 1;
+}
+.contenedorGaleria li:hover .content{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedorGaleria li:hover span{
+    scale: 1;
+    opacity: 1;
+    visibility: visible;
+}
