@@ -28,6 +28,7 @@ function Promociones (){
         <div className='promociones'>
         <NavBar />
         <div className='container, contConstum'>
+            <h2 className='titulo'>Menu</h2>
         <div className='row'>
                     <div className='col-md-6 col-lg-3'>
                         <ContentBotton img={img1} text={text1} />

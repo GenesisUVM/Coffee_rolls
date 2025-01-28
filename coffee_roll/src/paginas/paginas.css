@@ -1,24 +1,12 @@
 body{
     background: #2A3640;
 }
-.home,.promociones{
+/*Estilos pagina LandingPage*/
+.home,.promociones, .reseñas{
     position: relative;
     height: 100vh;
 }
-.contCard{
-    width: 90%;
-    height: 200vh;
-    position: relative;
-    top: 2rem;
-    margin: auto;
-    display: flex;
-}
-.contConstum{
-    position: relative;
-    top: 2rem;
-    width: 80%;
-    margin: auto;
-}
+
 .contenedor{
     position: relative;
     top: 5rem;
@@ -29,8 +17,23 @@ body{
     padding: 0 5rem 0 0 ;
     color: #F8EAE3;
 }
+
+/*Estilos Pagina Promociones*/
+.titulo{
+    color: #F8EAE3;
+    margin-bottom: 1rem;
+}
+
+.contConstum{
+    position: relative;
+    top: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3.5rem;
+}
+
 @media only screen and (min-width: 675px){
-    .home{
+    .home, .reseñas{
         height: 150vh;
     }
     .promociones{
@@ -38,15 +41,11 @@ body{
     }
 }
 @media only screen and (min-width: 1200px){
-    .home, .promociones{
-        height: 300vh;
+    .home,  .reseñas{
+        height: 200vh;
     }
     .promociones{
-        height: 370vh;
+        height: 250vh;
     }
-    .contConstum{
-       
-        width: 50%;
-       
-    }
+
 }
