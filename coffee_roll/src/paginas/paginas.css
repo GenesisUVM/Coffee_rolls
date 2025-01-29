@@ -1,7 +1,7 @@
 body{
     background: #2A3640;
 }
-/*Estilos pagina LandingPage*/
+
 .home,.promociones, .reseñas{
     display: flex;
     flex-direction: column;
@@ -9,13 +9,14 @@ body{
     
 }
 
-
+/*Estilos pagina LandingPage*/
 .contenedor{
     position: relative;
     flex: 1;
     top: 5rem;
     left: 10%;
     width: 90%;
+    margin-bottom: 3rem;
 }
 .contenedor span{
     padding: 0 5rem 0 0 ;
