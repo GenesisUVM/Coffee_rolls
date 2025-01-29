@@ -5,7 +5,7 @@ import './Forms.css'
 
 function FormReseña() {
   return (
-    <Form className='forms'>
+    <Form className='formsReseña'>
         <Form.Text className="text-muted">
           Ingresa tu opinion 
         </Form.Text>

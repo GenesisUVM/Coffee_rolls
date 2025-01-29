@@ -3,12 +3,16 @@ body{
 }
 /*Estilos pagina LandingPage*/
 .home,.promociones, .reseñas{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    height: 100vh;
+    
 }
+
 
 .contenedor{
     position: relative;
+    flex: 1;
     top: 5rem;
     left: 10%;
     width: 90%;
@@ -32,20 +36,4 @@ body{
     margin-bottom: 3.5rem;
 }
 
-@media only screen and (min-width: 675px){
-    .home, .reseñas{
-        height: 150vh;
-    }
-    .promociones{
-        height: 220vh;
-    }
-}
-@media only screen and (min-width: 1200px){
-    .home,  .reseñas{
-        height: 200vh;
-    }
-    .promociones{
-        height: 250vh;
-    }
 
-}

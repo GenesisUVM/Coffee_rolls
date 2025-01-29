@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'; 
+import FormContacto from './FormContacto';
 
 
 function Footer(){
@@ -19,7 +20,8 @@ function Footer(){
             <Nav.Link as={Link} to="/promociones">Products</Nav.Link>
             <Nav.Link as={Link} to="/reseñas">Contact</Nav.Link>
             </Nav>
-            </Navbar.Collapse>
+          </Navbar.Collapse>
+          <FormContacto/>
           </Container>
           </Navbar>
     )

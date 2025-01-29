@@ -3,7 +3,7 @@
   }
   .custom-footer{
     background: #7B5937;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
   }

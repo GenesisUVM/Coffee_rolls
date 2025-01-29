@@ -1,14 +1,27 @@
 .forms{
     width: 80%;
     margin: auto;
-    background: #F8EAE3;
     border-radius: 1.5rem;
     padding: 1.5rem;
     margin-top: 2rem;
+    color: #F8EAE3;
+}
+.formsReseña{
+   color: #F8EAE3;
+    width: 80%;
+    margin: auto;
+    
+}
+.formContacto{
+    width: 40%;
+    color: #F8EAE3;
 }
 @media only screen and (min-width: 1200px){
     .forms{
         width: 50%;
         margin-top: 2.5rem;
+    }
+    .formsReseña{
+        width: 60%;
     }
 }

@@ -22,6 +22,7 @@ function FormPedido() {
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Fecha y hora de entrega</Form.Label>
         <Form.Control type="date" placeholder="Seleccione la fecha y hora de entrega" />
+        <br />
         <Form.Control type="time" placeholder="Seleccione la fecha y hora de entrega" />
       </Form.Group>
 
